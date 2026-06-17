@@ -1,24 +1,49 @@
-# Compiled class file
+# ===========================
+# Compiled / Build Output
+# ===========================
 *.class
+target/
 
-# Log file
-*.log
+# ===========================
+# IntelliJ IDEA
+# ===========================
+.idea/
+*.iml
+*.iws
+*.ipr
 
-# BlueJ files
-*.ctxt
+# ===========================
+# Maven
+# ===========================
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# ===========================
+# Spring Boot
+# ===========================
 *.jar
 *.war
-*.nar
 *.ear
+application-local.properties
+application-local.yml
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Outros
+# ===========================
 *.zip
 *.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
